@@ -240,7 +240,8 @@ level3 = {
     },
     
     bossFight: function() {
-       this.game.state.start("Level3-2");
+        game.library.stop();
+        this.game.state.start("Level3-2");
     },
     
     skelHit: function(player, skeleton) {

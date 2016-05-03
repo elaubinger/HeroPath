@@ -267,6 +267,6 @@ level32 = {
         level3beat = true;
         dialogueString = this.game.add.text(525, 230, "", {font: "17px Arial", fill: "#FFFF00"});
         game.battle.stop();
-        dialogue = "You solved my three riddle!\nI will join you!\nClick Here to Continue";
+        dialogue = "You solved my three riddles!\nI will join you!\nClick Here to Continue";
     }
 }     
